@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Christian Anuebunwa - Projects</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Additional mobile responsiveness CSS -->
+    <style>
+        /* Mobile responsiveness fix for project cards */
+        @media (max-width: 767.98px) {
+            .card .d-flex {
+                flex-direction: column !important;
+            }
+
+            .card .d-flex img {
+                width: 100% !important;
+                max-height: 200px;
+                object-fit: cover;
+            }
+
+            .card .d-flex div.p-5 {
+                padding: 1.5rem !important;
+                width: 100% !important;
+            }
+
+            .container.px-5 {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+
+            .row.gx-5 {
+                --bs-gutter-x: 1rem !important;
+            }
+        }
+
+        /* Animation styles */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+        }
+
+        .slide-up {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideUp 0.8s ease-out forwards;
+        }
+
+        .slide-right {
+            opacity: 0;
+            transform: translateX(-20px);
+            animation: slideRight 0.8s ease-out forwards;
+        }
+
+        .slide-left {
+            opacity: 0;
+            transform: translateX(20px);
+            animation: slideLeft 0.8s ease-out forwards;
+        }
+
+        .scale-in {
+            opacity: 0;
+            transform: scale(0.95);
+            animation: scaleIn 0.8s ease-out forwards;
+        }
+
+        /* Animation delays */
+        .delay-1 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.4s;
+        }
+
+        .delay-3 {
+            animation-delay: 0.6s;
+        }
+
+        .delay-4 {
+            animation-delay: 0.8s;
+        }
+
+        .delay-5 {
+            animation-delay: 1s;
+        }
+
+        /* Animation keyframes */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideRight {
+            0% {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes scaleIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* Outline badges instead of filled */
+        .badge-outline-primary {
+            color: var(--bs-primary);
+            background-color: transparent;
+            border: 1px solid var(--bs-primary);
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Christian
+                        Anuebunwa</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Projects Section-->
+        <section class="py-5">
+            <div class="container px-5 mb-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0 slide-up"><span class="text-gradient d-inline">Projectsfdff</span>
+                    </h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+
+
+
+
+                        <!-- Project Card 4-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 scale-in">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder slide-right">Printgate</h2>
+                                        <p class="slide-right delay-1">This is a send-to-print Ecommerce where clients can send items for print or design it themselves</p>
+                                        <div class="mb-3 slide-right delay-2">
+
+                                            <span class="badge bg-light text-dark border-light me-2">Bootstrap</span>
+                                            <span class="badge bg-light text-dark border-light me-2">Ajax</span>
+                                        <span class="badge bg-light text-dark border-light me-2">Python</span>    
+                                  
+                                            <span class="badge bg-light text-dark border-light me-2">Django</span>
+                                       
+                                        </div>
+                                        <a href="https://manpadiga.pythonanywhere.com/" class="btn btn-outline-dark slide-right delay-3 "
+                                            target="_blank">View Project</a>
+                                    </div>
+                                    <img class="img-fluid slide-left" src="assets/screen.png"
+                                        alt="E-Commerce Platform" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Project Card 4-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 scale-in">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder slide-right">Cjack Autos E-Commerce</h2>
+                                        <p class="slide-right delay-1">A full-featured online store with product
+                                            catalog, Wishlist feature, advanced filtering, shopping cart, and secure
+                                            checkout & Payment system.</p>
+                                        <div class="mb-3 slide-right delay-2">
+                                        <span class="badge bg-light text-dark border-light me-2">Python</span>    
+                                  
+                                            <span class="badge bg-light text-dark border-light me-2">Django</span>
+                                            <span class="badge bg-light text-dark border-light me-2">PostgreSQL</span>
+                                        </div>
+                                        <a href="https://manpadiga.pythonanywhere.com/" class="btn btn-outline-dark slide-right delay-3 "
+                                            target="_blank">View Project</a>
+                                    </div>
+                                    <img class="img-fluid slide-left" src="assets/Cjack.png"
+                                        alt="E-Commerce Platform" />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <!-- Project Card 1-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 scale-in delay-1">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder slide-right">Hoodbella Tourist Booking Website</h2>
+                                        <p class="slide-right delay-1">A comprehensive tourism platform that allows
+                                            users to discover destinations in Lagos and South Africa,
+                                            make bookings, and plan their travel itineraries with ease.</p>
+                                        <div class="mb-3 slide-right delay-2">
+                                            <span class="badge bg-light text-dark border-light me-2">HTML</span>
+                                            <span class="badge bg-light text-dark border-light me-2">CSS</span>
+                                            <span class="badge bg-light text-dark border-light me-2">JavaScript</span>
+                                        </div>
+                                        <a href="https://christian047.github.io/Hoodbella_website/index.html"
+                                            class="btn btn-outline-dark slide-right delay-3" target="_blank">View
+                                            Project</a>
+                                    </div>
+                                    <img class="img-fluid slide-left" src="assets/Hoodbella.png"
+                                        alt="Tourist Booking Website" />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project Card 2-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 scale-in delay-2">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder slide-right">Quest Academy Website</h2>
+                                        <p class="slide-right delay-1">A modern educational institution website
+                                            featuring course listings, faculty
+                                            profiles, and student resources.</p>
+                                        <div class="mb-3 slide-right delay-2">
+                                            <span class="badge bg-light text-dark border-light me-2">HTML</span>
+                                            <span class="badge bg-light text-dark border-light me-2">CSS</span>
+                                            <span class="badge bg-light text-dark border-light me-2">Bootstrap</span>
+                                        </div>
+                                        <a href="https://christian047.github.io/Quest-Academy-School-Website/"
+                                            class="btn btn-outline-dark slide-right delay-3" target="_blank">View
+                                            Project</a>
+                                    </div>
+                                    <img class="img-fluid slide-left" src="assets/Quest.png"
+                                        alt="Quest Academy Website" />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project Card 3-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 scale-in delay-3">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder slide-right">Emegawaves Website</h2>
+                                        <p class="slide-right delay-1">A corporate website for a tech company, featuring
+                                            service descriptions, team
+                                            profiles, and contact information.</p>
+                                        <div class="mb-3 slide-right delay-2">
+                                            <span class="badge bg-light text-dark border-light me-2">HTML</span>
+                                            <span class="badge bg-light text-dark border-light me-2">Python</span>
+                                            <span class="badge bg-light text-dark border-light me-2">Django</span>
+                                        </div>
+                                        <a href="https://padi1234.pythonanywhere.com/"
+                                            class="btn btn-outline-dark slide-right delay-3" target="_blank">View
+                                            Project</a>
+                                    </div>
+                                    <img class="img-fluid slide-left" src="assets/Emegawaves.png"
+                                        alt="Emegawaves Website" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action section-->
+        <section class="py-5 bg-gradient-primary-to-secondary text-white">
+            <div class="container px-5 my-5">
+                <div class="text-center">
+                    <h2 class="display-4 fw-bolder mb-4 fade-in">Let's build something together</h2>
+                    <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder slide-up delay-1"
+                        href="contact.html">Contact me</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0">Copyright &copy; Christian Anuebunwa 2025</div>
+                </div>
+                <div class="col-auto">
+                    <a class="small" href="#!">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Terms</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
